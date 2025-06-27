@@ -1,0 +1,148 @@
+.menu-carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Estilos para el contenedor de menús diarios */
+  .daily-menu-container {
+    width: 100%;
+  }
+  
+  /* Estilos para menús de imagen (full width) */
+  .image-menu-fullwidth {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-image-full {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Estilos para el contenedor de menús fijos */
+  .fixed-menu-container {
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-header {
+    padding: 15px;
+    background: linear-gradient(to right, #38a169, #2f855a);
+    color: white;
+  }
+  
+  .menu-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .menu-description {
+    margin: 5px 0 0;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  .menu-category {
+    padding: 15px;
+  }
+  
+  .category-title {
+    font-size: 1.1rem;
+    color: #2f855a;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #edf2f7;
+  }
+  
+  .item-info {
+    flex: 1;
+  }
+  
+  .item-name {
+    font-weight: 500;
+    color: #2d3748;
+  }
+  
+  .item-description {
+    margin: 3px 0 0;
+    font-size: 0.85rem;
+    color: #718096;
+    font-style: italic;
+  }
+  
+  .item-prices {
+    text-align: right;
+    min-width: 80px;
+  }
+  
+  .main-price {
+    font-weight: bold;
+    color: #2f855a;
+  }
+  
+  .secondary-price {
+    display: block;
+    font-size: 0.8rem;
+    color: #718096;
+  }
+  
+  /* Estilos de Swiper */
+  .swiper {
+    padding: 10px 0 40px !important;
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    padding: 0 5px;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: #2f855a !important;
+    background: rgba(255, 255, 255, 0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 1.2rem !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #2f855a !important;
+  }
+  
+  /* Estilos para estados */
+  .loading-menus, .no-menus, .error-message {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #4a5568;
+  }
+  
+  .error-message {
+    color: #e53e3e;
+  }
